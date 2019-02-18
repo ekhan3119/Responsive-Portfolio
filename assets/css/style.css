@@ -239,20 +239,25 @@ body {
   .main-section{
       max-width: 650px;
   }
-  @media only screen {
-    header {
-        max-width: 980px;
-        width: 100%;
-        
-    }
+  @media  screen and (max-width:980px) {
+   #logo {
+    width: 100%;
+    } 
+   nav {
+     width: 100%;
+   }
+   nav a{
+     width: 33.33%
+   }
+
 }
-@media only screen  {
+@media screen and (max-width:768px)  {
     header {
        max-width: 768px;
         width: 100%;
     }
 }
-@media only screen  {
+@media screen and (max-width:640px) {
     header {
         min-width: 640px;
         width: 100%;    }
